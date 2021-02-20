@@ -7,8 +7,7 @@ var pivotIndex = function(nums) {
 
     let left = 0
     let right = 0
-    // right = nums.reduce((sum, num) => sum+num)
-// return right
+    
     for(let i = 0 ; i < nums.length ; i++){
         
         if(i==0){
