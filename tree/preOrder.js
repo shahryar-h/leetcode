@@ -16,10 +16,6 @@ var preorderTraversal = function(root) {
     
     res = []
 
-    if (!root) {
-        return null
-    }
-
     traverse(root,res)
 
     return res
